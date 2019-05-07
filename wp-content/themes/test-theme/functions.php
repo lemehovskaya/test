@@ -18,6 +18,10 @@ function global_scripts() {
 
 add_action('wp_enqueue_scripts', 'global_scripts');
 
+add_image_size('medium', 300, 300);
+add_image_size('large', 1024, 768);
+add_image_size('fullhd', 1920, 1080);
+
 
 function remove_head_scripts()
 {
@@ -58,7 +62,6 @@ if( function_exists('acf_add_options_page') ) {
 
 
 function remove_menus(){
-    remove_menu_page( 'edit.php' ); //Posts
     remove_menu_page( 'edit-comments.php' ); //Comments
 
 }

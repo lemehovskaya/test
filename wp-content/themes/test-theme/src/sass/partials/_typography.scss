@@ -11,13 +11,21 @@ body {
   font-family: $main-font-family-2;
   text-transform: uppercase;
   text-align: center;
+
+  &.dark-theme {
+    color: black;
+  }
+
+  &.light-theme {
+    color: white;
+  }
 }
 
-.main-p {
+.content {
   letter-spacing: -0.45px;
   line-height: 1.6;
 
-  p+p {
-    margin: 40px 0 0;
+  p + p {
+    margin: 20px 0 0;
   }
 }
