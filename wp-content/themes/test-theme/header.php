@@ -18,32 +18,37 @@
 <body <?php body_class(); ?>>
 
 <div id="page" class="site">
-    <header>
+    <header class="header">
         <div class="container">
-            <div class="navbar-head">
-                <a class="logo" href="/">
-                    Logo
-                </a>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                        aria-expanded="false" aria-controls="navbar">
-                    <div class="animate-burger">
-                        <span class="top"></span>
-                        <span class="middle"></span>
-                        <span class="bottom"></span>
+            <div class="header-menu">
+
+                <div class="navbar-head">
+                    <a class="logo" href="/">
+                        <strong>Krip</strong>dom
+                    </a>
+                </div>
+
+                <div class="wrap-right-side">
+                    <div class="menu menu-type">
+
+                        <?php
+                        wp_nav_menu(array(
+                                'menu' => 'Main menu',
+                                'container' => '',
+                                'menu_class' => 'nav navbar-nav'
+                            )
+                        );
+                        ?>
                     </div>
-                </button>
-            </div>
 
-            <div class="navbar-collapse collapse" id="navbar">
+                    <a class="header-btn" href="/partner-with-us">Partner with Us</a>
 
-                <?php
-                wp_nav_menu(array(
-                        'menu' => 'Main nav',
-                        'container' => '',
-                        'menu_class' => 'nav navbar-nav'
-                    )
-                );
-                ?>
+                    <div id="menu-trigger" class="menu-trigger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
