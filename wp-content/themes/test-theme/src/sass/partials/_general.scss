@@ -1,0 +1,30 @@
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color .5s, opacity .5s, background .5s;
+  &:focus {
+    outline: none;
+  }
+}
+
+button {
+  transition: color .5s, opacity .5s, background .5s;
+  cursor: pointer;
+}
+
+.back-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.rect-outer {
+  position: relative;
+  .rect-inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
