@@ -41,7 +41,7 @@
                         ?>
                     </div>
 
-                    <a class="header-btn" href="/partner-with-us">Partner with Us</a>
+                    <a class="orange-btn client-area-btn" href="/partner-with-us">Client Area</a>
 
                     <div id="menu-trigger" class="menu-trigger">
                         <div></div>

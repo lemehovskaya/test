@@ -1,4 +1,5 @@
 
-.icon-glass:before { content: '\e800'; } /* '' */
-.icon-music:before { content: '\e801'; } /* '' */
-.icon-search:before { content: '\e802'; } /* '' */
+.icon-comment-empty:before { content: '\f0e5'; } /* '' */
+.icon-angle-up:before { content: '\f106'; } /* '' */
+.icon-angle-down:before { content: '\f107'; } /* '' */
+.icon-calendar-empty:before { content: '\f133'; } /* '' */

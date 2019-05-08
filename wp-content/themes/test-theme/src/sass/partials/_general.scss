@@ -12,6 +12,12 @@ button {
   cursor: pointer;
 }
 
+.container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 20px;
+}
+
 .back-img {
   background-repeat: no-repeat;
   background-position: center;
@@ -26,5 +32,22 @@ button {
     top: 0;
     right: 0;
     bottom: 0;
+  }
+}
+
+.orange-btn {
+  background-color: $red;
+  font-family: $main-font-family-1;
+  font-size: 14px;
+  color: white;
+  padding: 13px;
+  border-radius: 25px;
+  transition: all 0.5s ease;
+  min-width: 132px;
+  text-align: center;
+  display: inline-block;
+
+  &:hover {
+    background-color: #ffa974;
   }
 }

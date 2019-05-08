@@ -1,6 +1,6 @@
 </div><!-- #content -->
 
-<footer>
+<footer class="text-align-center light-theme">
     <div class="copyright">
         &copy; <?php echo date('Y') ?>
     </div>
